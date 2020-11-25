@@ -16,15 +16,12 @@ class Cookie{
     bakeTime =  aBakeTime;
     isReady = false;
   }
-
   boolean getIsReady(){
     return isReady;
   }
-
   void setNumber(int aCookieNumber){
     number = aCookieNumber;
   }
-
   void bake(int aBakeTemp, int aBakeTime){
     System.out.println(number +" cookies were baked at "+ aBakeTemp + " degrees F for " + aBakeTime + " minutes.");
   }
